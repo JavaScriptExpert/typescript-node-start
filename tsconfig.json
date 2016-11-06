@@ -3,6 +3,9 @@
         "module": "commonjs",
         "target": "es2015",
         "noImplicitAny": false,
-        "sourceMap": true
-    }
+        "sourceMap": true,
+        "outDir": "build",
+        "watch": true
+    },
+    "compileOnSave": true
 }

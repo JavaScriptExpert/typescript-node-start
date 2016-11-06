@@ -6,6 +6,7 @@ typings
 
 #exclude the tsc js
 
-src/*.js
+src
+build
 *.log
 *.map
