@@ -1,0 +1,9 @@
+node_modules
+
+#if you customize this might want to remove this.
+typings
+
+
+#exclude the tsc js
+
+src/*.js

@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "description": "scaffolded ts app for node",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Shawn Cicoria",
+  "engines": {
+    "node": "~6"
+  },
+  "scripts": {
+    "start": "node ./src/index",
+    "watch": "node ./node_modules/typescript/./bin/tsc -w",
+    "install": "node ./node_modules/typings/dist/bin.js i -G dt~node"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.7",
+    "typings": "^1.5.0"
+  }
+}
