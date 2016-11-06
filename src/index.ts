@@ -4,7 +4,7 @@
 import * as http from 'http'
 
 import handler from './handler'
-var h = new handler("chuck a man");
+var h = new handler("chuck the man");
 
 console.log(h.getName());
 
